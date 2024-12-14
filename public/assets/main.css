@@ -1,0 +1,51 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: normal;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 980px;
+  }
+}
+
+
+@media (min-width: 1320px) {
+  .container {
+    width: 1120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    width: 1680px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  background: none;
+}
